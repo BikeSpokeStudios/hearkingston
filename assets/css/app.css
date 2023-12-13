@@ -3,3 +3,15 @@
 @import "tailwindcss/utilities";
 
 /* This file is for your main application CSS */
+
+.img-overlay {
+    z-index: 2;
+    position: relative;
+    top:25%;
+}
+
+@media (min-width: 1200px) {
+    .img-overlay {
+        top: 0%;
+    }
+}

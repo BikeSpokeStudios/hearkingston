@@ -6,4 +6,9 @@ defmodule HearkingstonWeb.PageController do
     # so skip the default app layout.
     render(conn, :home, layout: false, page_title: "(h)EAR Concert and Workshop Series")
   end
+
+  def about(conn, _params) do
+
+    render(conn, :about, layout: false, page_title: "About (h)EAR")
+  end
 end
