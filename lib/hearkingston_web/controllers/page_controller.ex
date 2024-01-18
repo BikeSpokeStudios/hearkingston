@@ -8,7 +8,10 @@ defmodule HearkingstonWeb.PageController do
   end
 
   def about(conn, _params) do
-
     render(conn, :about, layout: false, page_title: "About (h)EAR")
+  end
+
+  def ras(conn, _params) do
+    render(conn, :ras, layout: false, page_title: "Ras Burnett + Nambi at the Broom Factory")
   end
 end
