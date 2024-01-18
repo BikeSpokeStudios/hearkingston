@@ -7,11 +7,19 @@
 .img-overlay {
     z-index: 2;
     position: relative;
-    top:25%;
+    top:-8%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 420px) {
     .img-overlay {
-        top: 0%;
+        top:20%;
+    }
+    .logo-container {
+        max-width:100%;
+    }
+    .logo-img {
+        max-width:25%;
+        height:auto;
+        object-fit: contain;
     }
 }
