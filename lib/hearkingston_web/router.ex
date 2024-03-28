@@ -17,9 +17,10 @@ defmodule HearkingstonWeb.Router do
   scope "/", HearkingstonWeb do
     pipe_through :browser
 
-    get "/", PageController, :ras
+    get "/", PageController, :upcoming
     get "/about", PageController, :about
     get "/home", PageController, :home
+    get "/ras", PageController, :ras
   end
 
   # Other scopes may use custom stacks.
